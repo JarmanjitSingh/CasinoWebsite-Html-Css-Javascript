@@ -1,0 +1,43 @@
+@media screen and (max-width: 1354px) {
+    .navbar {
+        height: 350px;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+    }
+    #col-resp{
+        flex-direction: column;
+    }
+    #burger {
+        display: block;
+    }
+    div.rightnav {
+        flex-direction: column;
+        margin: 0;
+    }
+    ul.list-item {
+        flex-direction: column;
+    }
+    div#logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .btn {
+        margin-left: 0%;
+    }
+    .btn-nav{
+        margin: 20px auto;
+    }
+    nav.h-resp {
+        height: 82px;
+    }
+    div.v-resp, ul.v-resp {
+        display: none;
+    }
+}
+@media screen and (max-width: 500px){
+    #logoimg {
+        width: 100%;
+        margin-top: 14px;
+    }
+}

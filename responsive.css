@@ -1,0 +1,107 @@
+@media screen and (max-width: 1354px) {
+    .navbar {
+        height: 350px;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+    }
+    #col-resp{
+        flex-direction: column;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    div.rightnav {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    ul.list-item {
+        flex-direction: column;
+    }
+    div#logo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .btn {
+        margin-left: 0%;
+    }
+    .btn-nav{
+        margin: 20px auto;
+    }
+    nav.h-resp {
+        height: 82px;
+    }
+
+    div.v-resp, ul.v-resp {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 810px) {
+    .imgPara,
+    .divreverse {
+        flex-direction: column;
+    }
+
+    .sectionimg {
+        min-width: 80%;
+    }
+
+    .imgPara>p {
+        min-width: 74%;
+        padding: 15px;
+        text-align: center;
+        color: black;
+    }
+
+    .game {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #logoimg {
+        width: 100%;
+        margin-top: 14px;
+    }
+    .homewelcome {
+        font-size: 1.5rem;
+    }
+    .casino {
+        font-size: 313%;
+        letter-spacing: 19px;
+    }
+    #divider {
+        margin: 61px auto;
+    }
+    .game {
+        max-width: 85%;
+    }
+    .imgPara>p {
+        min-width: 95%;
+        padding: 0;
+    }
+    .imgPara>img {
+        width: 95%;
+    }
+    .formgp {
+        width: 88vw;
+    }
+    div.formgp > input, textarea {
+        width: 76vw;
+    }
+    .cardcontent{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .casino {
+        font-size: 240%;
+    }
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Rubik+Gemstones&family=Ubuntu&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+}
+html {
+    scroll-behavior: smooth;
+}
+/**************** Utility classes **********************/
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+/***************************************** Play Section **********************************/
+.play {
+    border: 2px solid black;
+    background-color: black;
+    margin-top: 5%;
+}
+
+.playcontainer {
+    min-height: 80vh;
+    margin-top: 10%;
+    max-width: 70%;
+    margin: auto;
+}
+
+.playheader {
+    text-align: center;
+    height: 30%;
+    color: white;
+}
+
+.playheader>h2 {
+    height: 40%;
+    font-size: 2.5rem;
+    margin: 20px auto;
+}
+.playheader>p {
+    height: 38%;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.playcards {
+    gap: 30px;
+    width: 90vw;
+}
+
+.card {
+    border: 3px solid white;
+    height: 14em;
+    width: 30vh;
+    border-radius: 23px;
+    transition: all 0.5s ease-in-out;
+}
+#icon {
+    transition: all 1s ease-in-out;
+}
+.card:hover #icon {
+    transform: scale(1.5);
+}
+.card:hover {
+    border-color: #cc0000;
+}
+.cardtext>p {
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 10px;
+}
+#icon {
+    height: 70px;
+    width: 70px;
+}
+.btn {
+    border: 2px solid white;
+    margin-top: 15px;
+    color: white;
+    background-color: #cc0000;
+    font-weight: bolder;
+    cursor: pointer;
+    height: 47px;
+    width: 175px;
+    font-size: 1.5rem;
+    border-radius: 50px;
+    margin-left: 0;
+}
+
